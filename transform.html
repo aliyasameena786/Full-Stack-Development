@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 2D TRANSFORMS -->
+    <style>
+        div{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            
+        }
+        .div1{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            transform: rotate(300deg);
+        }
+        .div2{
+            background-color: chocolate;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            border: solid black;
+            transform: scaleX(2,3);
+        }
+        .div3{
+            background-color: darkviolet;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            border: solid black;
+            transform: skew(20deg,30deg)
+
+        }
+        .div4{
+            background-color: darkmagenta;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            border: solid black;
+            /* matrix(scaleX,scaleY,skewY,scaleY,translateX,translateY) */
+            transform: matrix(1,-0.3,0,1,0,0);
+        }
+    </style>
+</head>
+<body>
+    <div>Welcome to Aliya's Website</div><br>
+    <div class="div1">HI</div><br>
+    <div class="div2">Sameeha Begum</div><br>
+    <div class="div3">Humera Begum</div><br>
+    <div class="div4">Maaz Begum</div>
+</body>
+</html>
